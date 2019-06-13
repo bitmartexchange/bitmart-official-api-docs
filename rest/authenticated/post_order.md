@@ -4,7 +4,7 @@ Create a new order.
 
 ### HMAC SHA256 signature
 
-HMAC SHA256 signature will be used as the value of _**X-BM-SIGNATURE**_ header. We highly recommend to sign the payload in case the request body is hacked.
+HMAC SHA256 signature will be used as the value of _**X-BM-SIGNATURE**_ header. We highly recommend to sign the payload in case the request body is hacked. Be aware that the order of request parameters in the signed payload must be the same as the order of parameters in the post body.
 
 Here is a sample from the Linux command line request using ```echo```, ```openssl``` and ```curl```.
 
