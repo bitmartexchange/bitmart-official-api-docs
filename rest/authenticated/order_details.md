@@ -75,9 +75,9 @@ func main() {
 | 3 | Success orders |
 | 4 | Canceled orders |
 | 5 | Pending and partially successful orders |
-| 6 | Success and canceled orders |
+| ~~6~~ | ~~Success and canceled orders~~ |
 
-
+_Status == 6 is no longer supported._
 
 #### Response Details
 
