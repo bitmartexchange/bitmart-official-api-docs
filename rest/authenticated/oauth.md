@@ -138,7 +138,7 @@ func main() {
 | Key | Type | Description |
 | :--- | :--- | :--- |
 | access_token | string | Bearer token |
-| expires_in | numeric | Token expiration time (in seconds) |
+| expires_in | numeric | Token expiration time (in seconds), **Token will also expire at 00:00:00(UTC)** |
 
 
 
