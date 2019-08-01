@@ -22,8 +22,8 @@ print(response.text)
         "id":"BMX_ETH",
         "base_currency":"BMX",
         "quote_currency":"ETH",
-        "quote_increment":"0.00000001",
-        "base_min_size":"0.01",
+        "quote_increment":"0.1",
+        "base_min_size":"0.1",
         "base_max_size":"100000000",
         "price_min_precision":6,
         "price_max_precision":8,
@@ -40,7 +40,7 @@ print(response.text)
 | id | string | Trading pair id |
 | base\_currency | string | Base currency |
 | quote\_currency | string | Quote currency |
-| quote\_increment | string | Minimum order price as well as the price increment |
+| quote\_increment | string | Minimum order quantity as well as the quantity increment |
 | base\_min\_size | string | Minimum trade volume |
 | base\_max\_size | string | Maximum trade volume |
 | price\_min\_precision | number | Minimum price precision (digit) used to query price and kline |
